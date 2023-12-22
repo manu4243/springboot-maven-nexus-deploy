@@ -133,13 +133,13 @@ under the License.
     -->
    <server>
       <id>nexus-snapshots</id>
-      <username>nexus</username>
-      <password>{U8zXaB7BVLgHJLPetCyryR/wb1UYG/Ji3mBWKxAVA9k=}</password>
+      <username>${nexus_user}</username>
+      <password>${nexus_pass}</password>
    </server>
    <server>
       <id>nexus-release</id>
-      <username>nexus</username>
-      <password>{U8zXaB7BVLgHJLPetCyryR/wb1UYG/Ji3mBWKxAVA9k=}</password>
+      <username>${nexus_user}</username>
+      <password>${nexus_pass}</password>
    </server>
   </servers>
 
